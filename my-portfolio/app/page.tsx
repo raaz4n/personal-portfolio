@@ -16,6 +16,15 @@ export default function Home() {
                 <h1 className="static block mt-[10px] mb-[10px] text-(--tcl1) text-[60px] font-semibold leading-[44px]">
                     raazan
                 </h1>
+                <p className="static block mt-[10px] pt-[5px] mb-[10px] font-medium text-[20px] leading-[20px] text-(--tcl3) italic">
+                    building apps, bots, and a 2D game.
+                </p>
+                <p className="static block pt-[60px] mb-[10px] font-normal text-[30px] leading-[20px] text-(--tcl1)">
+                    small developer • cs @ mtsu
+                </p>
+                <p className="font-secondary static flex flex-row items-left pt-[15px] mb-[10px] font-medium text-[20px] leading-[20px] text-(--tcl2)">
+                    <a href="https://github.com/raaz4n">github</a>   ❘ ✦ ❘   <a href="https://linkedin.com/in/raazan">linkedin</a>
+                </p>
         </div>
     </section>
   );

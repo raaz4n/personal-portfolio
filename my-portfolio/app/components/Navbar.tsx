@@ -7,7 +7,7 @@ const Navbar = () => {
         <Link href="/" prefetch className='transition duration-300 hover:scale-110'>
         </Link>
         <ul className="flex gap-10 text-lg">
-            <Link href="/about"
+            <Link href="/about" prefetch
             className="text-gray-300 hover:text-white 
             transition-colors">
                 about

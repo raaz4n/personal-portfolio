@@ -12,9 +12,8 @@
   --color-text: var(--tcl1);
   --color-text2: var(--tcl2);
   --color-text3: var(--tcl3);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
   --font-main: var(--font-inter);
+  --font-secondary: var(--font-stack)
 }
 
 @layer theme{
