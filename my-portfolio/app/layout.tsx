@@ -30,7 +30,6 @@ export default function RootLayout({
       <body
         className={`${stackFont.variable} ${interFont.variable}`}
       >
-        <Navbar></Navbar>
         {children}
       </body>
     </html>
