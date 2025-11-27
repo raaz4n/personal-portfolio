@@ -1,17 +1,21 @@
 @import "tailwindcss";
 
 :root {
-    --background: #000000;
-    --tcl1: #ffffff;
+    --background: black;
+    --tcl1: white;
     --tcl2: #acacac;
     --tcl3: #333;
+    --nxt-clr: black;
+    --nxt-bg: white;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --next-background: var(--nxt-bg);
   --color-text: var(--tcl1);
   --color-text2: var(--tcl2);
   --color-text3: var(--tcl3);
+  --next-color: var(--nxt-clr);
   --font-main: var(--font-inter);
   --font-secondary: var(--font-stack)
 }
@@ -19,30 +23,38 @@
 @layer theme{
     [data-theme="dark"] {
         --background: black;
+        --nxt-bg: white;
         --tcl1: white;
         --tcl2: #acacac;
         --tcl3: #333;
+        --nxt-clr: black;
     }
 
     [data-theme="light"] {
         --background: white;
+        --nxt-bg: #778873;
         --tcl1: black;
         --tcl2: #5f5f5f;
         --tcl3: #b4b4b4;
+        --nxt-clr: #a1bc98;
     }
 
     [data-theme="matcha"] {
         --background: #778873;
+        --nxt-bg: #8ca9ff;
         --tcl1: #a1bc98;
         --tcl2: #758a6e;
         --tcl3: #51614c;
+        --nxt-clr: #fff2c6;
     }
 
     [data-theme="blue summer"]{
         --background: #8ca9ff;
+        --nxt-bg: black;
         --tcl1: #fff2c6;
         --tcl2: #c0b694;
         --tcl3: #857d64;
+        --nxt-clr: white;
     }
 }
 
