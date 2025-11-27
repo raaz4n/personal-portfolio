@@ -7,7 +7,7 @@ export default function Home() {
             ml-[3%] mb-[3%] mr-[3%] w-[94%] h-[83%] 
             bottom-[0%] absolute`}>  
         </div>
-        <ThemeButton></ThemeButton>
+        <ThemeButton/>
         <div className={`block 
             w-[500px] h-[300px] ml-[3%] mt-[50px] mr-[50px] mb-[50px] 
             pt-[30px] pb-[30px] absolute 

@@ -26,13 +26,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${stackFont.variable} ${interFont.variable}`}
-      >
-        <Navbar></Navbar>
-        {children}
-      </body>
+    <html lang="en" suppressHydrationWarning>
+        <body className={`${stackFont.variable} ${interFont.variable}`} >
+            <script>
+                const theme = localStorage.getItem("theme") || "dark";
+                document.documentElement.dataset.theme = theme;
+            </script>
+            <Navbar></Navbar>
+            {children}
+        </body>
     </html>
   );
 }
