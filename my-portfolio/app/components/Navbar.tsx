@@ -2,36 +2,36 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className='fixed top-0 w-full flex items-center 
-    justify-around pb-15 border-b border-gray-700 bg-black'>
-        <Link href="/" prefetch className='transition duration-300 hover:scale-110'>
+    <nav className={`flex flex-row justify-between w-[100%] fixed`}>
+      <div className={`block min-w-screen h-[85px] fixed top-[0px] bg-[#333]`}>
+      </div>
+      <div className={`flex flex-row justify-around w-[100%] h-[70px] relative`}>
+        <Link href="/" prefetch className={`flex flex-col justify-center items-center bg-(--ht) cursor-pointer w-[20%]`}>
+            <p className={`block font-medium text-[40px] leading-[20px] text-white`}>
+                home
+            </p>
         </Link>
-        <ul className="flex gap-10 text-lg">
-            <Link href="/about" prefetch
-            className="text-gray-300 hover:text-white 
-            transition-colors">
+        <Link href="/about" prefetch className={`flex flex-col justify-center items-center bg-(--abtt) cursor-pointer w-[20%]`}>
+            <p className={`block font-medium text-[40px] leading-[20px] text-white`}>
                 about
-            </Link>
-
-            <Link href="/art" prefetch
-            className="text-gray-300 hover:text-white 
-            transition-colors">
+            </p>
+        </Link>
+        <Link href="/art" prefetch className={`flex flex-col justify-center items-center bg-(--at) cursor-pointer w-[20%]`}>
+            <p className={`block font-medium text-[40px] leading-[20px] text-white`}>
                 art
-            </Link>
-
-            <Link href="/blog" prefetch
-            className="text-gray-300 hover:text-white 
-            transition-colors">
+            </p>
+        </Link>
+        <Link href="/blog" prefetch className={`flex flex-col justify-center items-center bg-(--bt) cursor-pointer w-[20%]`}>
+            <p className={`block font-medium text-[40px] leading-[20px] text-white`}>
                 blog
-            </Link>
-
-            <Link href="/projects" prefetch
-            className="text-gray-300 hover:text-white 
-            transition-colors">
+            </p>
+        </Link>
+        <Link href="/projects" prefetch className={`flex flex-col justify-center items-center bg-(--pt) cursor-pointer w-[20%]`}>
+            <p className={`block font-medium text-[40px] leading-[20px] text-white`}>
                 projects
-            </Link>
-        </ul>
-        
+            </p>
+        </Link>
+      </div>
     </nav>
   )
 }
