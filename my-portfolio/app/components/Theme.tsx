@@ -3,7 +3,7 @@ import { useState, useEffect} from 'react'
 
 const ThemeButton = () => {
     const [currentTheme, setTheme] = useState("dark")
-    const themes = ["dark", "light", "matcha", "blue summer"]
+    const themes = ["dark", "light", "pastel", "matcha", "blue summer"]
 
     useEffect(() => {
         const cachedTheme = localStorage.getItem("theme") || "dark"
