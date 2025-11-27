@@ -5,6 +5,9 @@
     --tcl1: white;
     --tcl2: #acacac;
     --tcl3: #333;
+    --ic: #aea7ff;
+    --lc: #aff2ff;
+    --rc: #eff7ad;
     --nxt-clr: black;
     --nxt-bg: white;
     --ht: #ff7070;
@@ -21,6 +24,9 @@
   --color-text2: var(--tcl2);
   --color-text3: var(--tcl3);
   --next-color: var(--nxt-clr);
+  --interest-color: var(--ic)
+  --linkedin-color: var(--lc)
+  --resume-color: var(--rc)
   --font-main: var(--font-inter);
   --font-secondary: var(--font-stack);
   --home-tab: var(--ht);
@@ -36,6 +42,9 @@
     --tcl1: white;
     --tcl2: #acacac;
     --tcl3: #333;
+    --ic: #aea7ff;
+    --lc: #aff2ff;
+    --rc: #eff7ad;
     --nxt-clr: black;
     --ht: #ff7070;
     --abtt: #011fff;
@@ -50,6 +59,9 @@
     --tcl1: black;
     --tcl2: #5f5f5f;
     --tcl3: #b4b4b4;
+    --ic: #aea7ff;
+    --lc: #002fff;
+    --rc: #e99700;
     --nxt-clr: #fbf3d1;
 }
 
@@ -59,6 +71,9 @@
     --tcl1: #fbf3d1;
     --tcl2: #deded1;
     --tcl3: #c5c7bc;
+    --ic: #504d79;
+    --lc: #aff2ff;
+    --rc: #eff7ad;
     --nxt-clr: #f1f3e0;
 }
 
@@ -68,6 +83,9 @@
     --tcl1: #f1f3e0;
     --tcl2: #d2dcb6;
     --tcl3: #a1bc98;
+    --ic: #02c6ed;
+    --lc: #aff2ff;
+    --rc: #eff7ad;
     --nxt-clr: #a8fbd3;
 }
 
@@ -77,6 +95,9 @@
     --tcl1: #a8fbd3;
     --tcl2: #4fb7b3;
     --tcl3: #637ab9;
+    --ic: #aea7ff;
+    --lc: #aff2ff;
+    --rc: #eff7ad;
     --nxt-clr: white;
 }
 

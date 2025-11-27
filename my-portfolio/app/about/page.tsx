@@ -21,12 +21,12 @@ export default function about() {
                     lets connect!
                     <br />
                     <a className={`text-(--tcl1)`} href="https://github.com/raaz4n" target="_blank" rel="noopener noreferrer">github</a>
-                     ✦ <a className={`text-[#aff2ff]`} href="https://linkedin.com/in/raazan" target="_blank" rel="noopener noreferrer">linkedin</a>
+                     ✦ <a className={`text-(--lc)`} href="https://linkedin.com/in/raazan" target="_blank" rel="noopener noreferrer">linkedin</a>
                 </p>
                 <p className={`block font-secondary font-normal text-[14px] leading-[20px] text-(--tcl2) mb-[10px]`}>
                     interested in my skills?
                     <br />
-                    <a className={`inline text-[#eff7ad]`} href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <a className={`inline text-(--rc)`} href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">
                         my resume ░
                     </a>    
                 </p>
@@ -38,22 +38,22 @@ export default function about() {
                 <ul className={`list-none flex flex-col justify-stretch items-start pl-[0px] mb-[10px] gap-[8px]
                                 font-secondary font-normal text-[16px] leading-[20px]`}>
                     <li className={`text-(--tcl1)`}>
-                        <span className={`text-[#aea7ff] font-semibold`}>games: </span> counter strike 2, battlefield 6, yume nikki, elden ring, minecraft, kovaak's, ds3, mw2, deltarune, va-11 ha11-a, oneshot
+                        <span className={`text-(--ic) font-semibold`}>games: </span> counter strike 2, battlefield 6, yume nikki, elden ring, minecraft, kovaak's, ds3, mw2, deltarune, va-11 ha11-a, oneshot
                     </li>
                     <li className={`text-(--tcl1)`}>
-                        <span className={`text-[#aea7ff] font-semibold`}>music: </span> nujabes, uyama hiroto, shing02, nuphory, mf doom, lil uzi vert, madeon, daft punk
+                        <span className={`text-(--ic) font-semibold`}>music: </span> nujabes, uyama hiroto, shing02, nuphory, mf doom, lil uzi vert, madeon, daft punk
                     </li>
                     <li className={`text-(--tcl1)`}>
-                        <span className={`text-[#aea7ff] font-semibold`}>art: </span> frantisek kupka, kanicoro (@_k256), yoshihiro togashi
+                        <span className={`text-(--ic) font-semibold`}>art: </span> frantisek kupka, kanicoro (@_k256), yoshihiro togashi
                     </li>
                     <li className={`text-(--tcl1)`}>
-                        <span className={`text-[#aea7ff] font-semibold`}>series: </span> hxh, one piece, andor, peaky blinders, breaking bad, better call saul, danmachi
+                        <span className={`text-(--ic) font-semibold`}>series: </span> hxh, one piece, andor, peaky blinders, breaking bad, better call saul, danmachi
                     </li>
                     <li className={`text-(--tcl1)`}>
-                        <span className={`text-[#aea7ff] font-semibold`}>tech: </span> c++, python, web dev, networking, game engines, aseprite
+                        <span className={`text-(--ic) font-semibold`}>tech: </span> c++, python, web dev, networking, game engines, aseprite
                     </li>
                     <li className={`text-(--tcl1)`}>
-                        <span className={`text-[#aea7ff] font-semibold`}>personal: </span> stargazing, cold brew coffee, cars, cats, keyboards, drawing, photography, gym, being great
+                        <span className={`text-(--ic) font-semibold`}>personal: </span> stargazing, cold brew coffee, cars, cats, keyboards, drawing, photography, gym, being great
                     </li>
                 </ul>
             </div>
