@@ -1,6 +1,26 @@
+'use client'
 import ThemeButton from "../components/Theme";
+import React, { useEffect } from 'react';
+import PhotoSwipeLightbox from 'photoswipe/lightbox';
+import 'photoswipe/style.css';
+import PhotoSwipe from 'photoswipe';
 
 export default function art() {
+    useEffect(() => {
+        const lightbox = new PhotoSwipeLightbox({
+            gallery: '#gallery',
+            children: 'a',
+            pswpModule: PhotoSwipe,
+            showHideAnimationType: 'none',
+        });
+        lightbox.init();
+
+        return() => {
+            lightbox.destroy();
+        };
+    }, []);
+
+
   return (
     <div className={`flex flex-col justify-center items-center min-h-screen bg-(--background)`}>
       <ThemeButton/>
@@ -16,10 +36,17 @@ export default function art() {
                 ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
             </p>
         </div>
-        <div className={`grid grid-cols-3 gap-y-4 gap-x-20 w-full pl-[10px] pr-[10px]`}>
-            <div className='bg-red-500 rounded-lg shadow-xl min-h-[400px]'/>
-            <div className='bg-white rounded-lg shadow-xl min-h-[400px]'/>
-            <div className='bg-black rounded-lg shadow-xl min-h-[400px]'/>
+        <div id="gallery" className={`grid grid-cols-3 gap-y-4 gap-x-20 w-full pl-[10px] pr-[10px]`}>
+            <a href="/file.svg" 
+            data-pswp-width="200"
+            data-pswp-height="200"
+            target="_blank" 
+            rel="norefferer" 
+            className='border border-pink-400 rounded-lg shadow-xl min-h-[400px]'>
+                <img src="/file.svg" className="w-full h-full object-cover"/>
+            </a>
+            <div className='border border-pink-400 rounded-lg shadow-xl min-h-[400px]'/>
+            <div className='border border-pink-400 rounded-lg shadow-xl min-h-[400px]'/>
         </div>
       </div>
     </div>
