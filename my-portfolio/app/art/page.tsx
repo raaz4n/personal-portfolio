@@ -5,7 +5,7 @@ export default function art() {
     <div className={`flex flex-col justify-center items-center min-h-screen bg-(--background)`}>
       <ThemeButton/>
       <div className={`flex flex-col justify-start items-start gap-[34px] pt-[200px] min-h-screen w-[70%] static`}>
-        <div className={`flex flex-col justify-start items-start gap-[30px] mb-[60px] w-[100%] h-[15%]`}>
+        <div className={`flex flex-col justify-start items-start gap-[30px] mb-[20px] w-[100%] h-[15%]`}>
             <h1 className={`mb-[10px] font-semibold text-[38px] leading-[44px] text-(--tcl1)`}>
                 Art
             </h1>
@@ -15,6 +15,11 @@ export default function art() {
             <p className={`mb-[10px] font-normal text-[14px] leading-[20px] text-(--tcl2)`}>
                 ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
             </p>
+        </div>
+        <div className={`grid grid-cols-3 gap-y-4 gap-x-20 w-full pl-[10px] pr-[10px]`}>
+            <div className='bg-red-500 rounded-lg shadow-xl min-h-[400px]'/>
+            <div className='bg-white rounded-lg shadow-xl min-h-[400px]'/>
+            <div className='bg-black rounded-lg shadow-xl min-h-[400px]'/>
         </div>
       </div>
     </div>
