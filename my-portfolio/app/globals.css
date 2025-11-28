@@ -17,6 +17,10 @@
     --pt: #00ff73;
 }
 
+.disabled {
+    pointer-events: none;
+}
+
 @theme inline {
   --color-background: var(--background);
   --next-background: var(--nxt-bg);
