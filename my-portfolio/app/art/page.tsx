@@ -43,7 +43,7 @@ export default function art() {
                 Art
             </h1>
             <p className={`mb-[10px] font-normal text-[18px] leading-[20px] text-(--tcl1)`}>
-                A collection of 2D pixel art pieces, exploring environments, and small visual experiments.
+                A collection of 2D pixel art albums, exploring environments, and small visual experiments.
             </p>
             <p className={`mb-[10px] font-normal text-[14px] leading-[20px] text-(--tcl2)`}>
                 ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
