@@ -53,7 +53,7 @@ export default function HelloThere() {
                                 I had a previous website I built through React but wanted a more impressive website to display my skills. Was also a good learning opportunity to use NextJS and Tailwind.
                             </p>
                             <p className={`pt-[50px]`}>
-                                Interested in contacting me? <a className={`text-[#8b4000]`} href="mailto:raazandoski@gmail.com">Email me.</a>
+                                Interested in contacting me? <a className={`text-[#8b4000]`} href="mailto:rkd2y@mtmail.mtsu.edu">Email me.</a>
                             </p>
                         </div>
                     </div>
