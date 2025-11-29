@@ -101,6 +101,10 @@ export default function HelloThere() {
                                 with animations through JS, seems pretty difficult right now but I'm up to the challenge.
                             </p>
                             <p className={`pt-[20px]`}>
+                                Also, another thing - you may wonder why the main page seems so bland. I plan on developing an image/video to ASCII script in Python
+                                and having a really cool animation play in the background. Will try to get that done as soon as I can.
+                            </p>
+                            <p className={`pt-[20px]`}>
                                 Thanks for reading!
                             </p>
                         </div>
