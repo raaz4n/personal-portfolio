@@ -34,10 +34,10 @@
   --font-main: var(--font-inter);
   --font-secondary: var(--font-stack);
   --home-tab: var(--ht);
-  --about-tab: var(-abtt);
-  --art-tab: var(-at);
-  --blog-tab: var(-bt);
-  --projects-tab: var(-pt);
+  --about-tab: var(--abtt);
+  --art-tab: var(--at);
+  --blog-tab: var(--bt);
+  --projects-tab: var(--pt);
 }
 
 [data-theme="dark"] {

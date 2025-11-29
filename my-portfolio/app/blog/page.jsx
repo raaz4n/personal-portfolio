@@ -1,5 +1,6 @@
 'use client'
 import { useState } from "react";
+import Link from "next/link";
 import Filter from "../components/Filter";
 import ThemeButton from "../components/Theme";
 import { data } from "@/data";
@@ -44,7 +45,7 @@ export default function Blog() {
                 </div>
                 <div className={`flex flex-col w-[100%] gap-[20px] pl-[10px] pr-[10px] pt-[20px]`}>
                     {filteredList.map((el, i) => (
-                        <div key={i} className={`flex flex-col justify-start items-start h-[10em] border-5 border-(--tcl2) pl-[10px] mb-[20px]`}>
+                        <Link key={i} href={`/blog/${el.slug}`} className={`flex flex-col cursor-pointer justify-start items-start h-[10em] border-5 border-(--tcl2) pl-[10px] mb-[20px]`}>
                             <div className={`flex flex-row justify-between w-full`}>
                                 <h1 className={`text-[40px] text-(--tcl1) font-semibold hover:text-(--ic) transition-colors duration-200 ease-in-out`}>
                                     {el.name}
@@ -65,7 +66,7 @@ export default function Blog() {
                                 </div>
                                 ))}
                             </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
             </div>
