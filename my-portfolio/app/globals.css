@@ -33,6 +33,7 @@
   --resume-color: var(--rc)
   --font-main: var(--font-inter);
   --font-secondary: var(--font-stack);
+  --font-tertiary: var(--font-figtree);
   --home-tab: var(--ht);
   --about-tab: var(--abtt);
   --art-tab: var(--at);

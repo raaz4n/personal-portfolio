@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
-import { Inter, Stack_Sans_Headline } from "next/font/google";
+import { Inter, Stack_Sans_Headline, Figtree } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+
+const figtreeFont = Figtree({
+    subsets: ['latin'],
+    weight: ["400", "500", "600"],
+    variable: "--font-figtree"
+});
 
 const interFont = Inter({
     subsets: ['latin'],
@@ -27,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-        <body className={`${stackFont.variable} ${interFont.variable}`} >
+        <body className={`${figtreeFont.variable} ${stackFont.variable} ${interFont.variable}`} >
             <script>
                 const theme = localStorage.getItem("theme") || "dark";
                 document.documentElement.dataset.theme = theme;

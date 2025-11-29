@@ -7,7 +7,7 @@ import { data } from "@/data";
 
 export default function Blog() {
     const [activeTag, setActiveTag] = useState('all')
-    let tagList = ['all', 'misc']
+    let tagList = ['all', 'personal', 'projects', 'websiteCheck', 'Aeris']
 
     const handleTag = (tag) => {
         setActiveTag(tag)
@@ -43,11 +43,11 @@ export default function Blog() {
                 <div className={`flex flex-row justify-center w-full`}>
                     <Filter tagList={tagList} activeTag={activeTag} handleTag={handleTag}/>
                 </div>
-                <div className={`flex flex-col w-[100%] gap-[20px] pl-[10px] pr-[10px] pt-[20px]`}>
+                <div className={`flex flex-col w-[100%] gap-[10px] pl-[10px] pr-[10px] pt-[20px]`}>
                     {filteredList.map((el, i) => (
                         <Link key={i} href={`/blog/${el.slug}`} className={`flex flex-col cursor-pointer justify-start items-start h-[10em] border-5 border-(--tcl2) pl-[10px] mb-[20px]`}>
                             <div className={`flex flex-row justify-between w-full`}>
-                                <h1 className={`text-[40px] text-(--tcl1) font-semibold hover:text-(--ic) transition-colors duration-200 ease-in-out`}>
+                                <h1 className={`text-[40px] text-(--tcl1) font-semibold hover:text-(--ic)`}>
                                     {el.name}
                                 </h1>
                                 <p className={`underline font-secondary text-(--tcl3) pt-[10px] pr-[15px]`}>
@@ -59,8 +59,8 @@ export default function Blog() {
                             </p>
                             <div className={`flex flex-row flex-wrap mt-[20px] gap-[10px]`}>
                                 {el.category.map((category, index) => (
-                                <div key={index} className={`font-secondary border-2 border-(--tcl2) w-[60px] h-[35px]`}>
-                                    <p className={`flex mt-[3px] justify-center items-center text-(--tcl2)`}>
+                                <div key={index} style={{ paddingLeft: '5px', paddingRight: '5px' }} className={`font-secondary border-2 border-(--tcl2) h-[35px]`}>
+                                    <p className={`flex mt-[3px] justify-center items-center text-[15px]text-(--tcl2)`}>
                                         {category}
                                     </p>
                                 </div>

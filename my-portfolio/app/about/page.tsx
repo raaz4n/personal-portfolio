@@ -20,7 +20,7 @@ export default function about() {
                 <p className={`font-secondary font-normal text-[14px] leading-[20px] text-(--tcl2) mb-[10px]`}>
                     lets connect!
                     <br />
-                    <a className={`text-(--tcl1)`} href="https://github.com/raaz4n" target="_blank" rel="noopener noreferrer">github</a>
+                    <a className={`text-(--tcl2)`} href="https://github.com/raaz4n" target="_blank" rel="noopener noreferrer">github</a>
                      ✦ <a className={`text-(--lc)`} href="https://linkedin.com/in/raazan" target="_blank" rel="noopener noreferrer">linkedin</a>
                 </p>
                 <p className={`block font-secondary font-normal text-[14px] leading-[20px] text-(--tcl2) mb-[10px]`}>

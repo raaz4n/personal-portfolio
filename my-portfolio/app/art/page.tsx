@@ -49,8 +49,8 @@ export default function art() {
                 ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
             </p>
         </div>
-        <div className={`grid grid-cols-3 gap-y-4 gap-x-20 w-full pl-[10px] pr-[10px]`}>
-            <div className={`border border-pink-400 rounded-lg shadow-xl min-h-[490px]`}>
+        <div className={`grid grid-cols-3 gap-y-8 gap-x-15 w-full pl-[10px] pr-[10px]`}>
+            <div className={`border border-orange-400 bg-[#333] rounded-lg shadow-xl min-h-[480px]`}>
                 <div id = "gallery">
                     <a href="/hoshi/hoshilogo.png"
                     data-pswp-width="650"
@@ -76,16 +76,16 @@ export default function art() {
                         </span>
                     </a>
                 </div>
-                <div className={`flex flex-col justify-center items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
-                    <p className={`text-(--tcl1) text-[25px]`}>
+                <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
+                    <p className={`text-white font-tertiary text-[25px]`}>
                         Hoshi
                     </p>
-                    <p className={`text-(--tcl2) text-[19px]`}>
+                    <p className={`text-yellow-500 font-secondary text-[19px]`}>
                         2025-present
                     </p>
                 </div>
             </div>
-            <div className={`border border-pink-400 rounded-lg shadow-xl min-h-[400px]`}>
+            <div className={`border border-orange-400 bg-(--background) rounded-lg shadow-xl min-h-[480px]`}>
                 <div className={`flex flex-col justify-center items-center h-[29em]`}>
                     <h1 className={`font-secondary text-(--tcl2) text-[40px]`}>
                         More to come soon!

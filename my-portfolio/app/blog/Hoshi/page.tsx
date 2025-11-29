@@ -24,10 +24,10 @@ export default function HelloThere() {
                     <div className={`flex flex-col justify-start items-start gap-[30px] w-[40%]`}>
                         <div className={`flex flex-row justify-between w-full`}>
                             <h1 className={`font-semibold text-[38px] leading-[44px] text-(--tcl1)`}>
-                                Aeris
+                                Hoshi
                             </h1>
                             <p className={`underline font-secondary text-(--tcl3) pt-[10px] pr-[15px]`}>
-                                11/29/2025
+                                ??/??/2025
                             </p>
                         </div>
                         <div className={`text-(--tcl1) text-[18px]`}>
@@ -35,27 +35,8 @@ export default function HelloThere() {
                                 ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
                             </p>
                             <h2 className={`text-[25px] font-semibold pb-[20px]`}>
-                                Since I finished this project about a month before I started building this new website, I unfortunately won't
-                                be able to give live insight on how I completed it.
+                                In development.
                             </h2>
-                            <p>
-                                Github repo <a className={`text-(--tcl2) underline`} 
-                                href="https://github.com/raaz4n/Aeris" target="_blank" rel="noopener noreferrer">here.</a>
-                            </p>
-                            <p className={`pt-[20px]`}>
-                                Use the tool <a className={`text-(--tcl2) underline`} 
-                                href="https://aeris.raazan.dev/" target="_blank" rel="noopener noreferrer">here.</a>
-                            </p>
-                            <p className={`pt-[20px]`}>
-                                I had the thought one day of making a tool using Python that gathers data from an API and thought of using OpenWeatherMap.
-                                I thought of making a very simplistic weather app, since many weather apps online tend to bombard you with options. Although
-                                this app doesn't have many options besides temperature and location, it's what I intended for it.
-                            </p>
-                            <p className={`pt-[20px]`}>
-                                I never used Flask before this project, so it was quite a journey. I looked at many Flask examples online to get a feel of
-                                how I would build Aeris. It was a great learning process utilizing Flask and setting up the server through AWS EC2 and getting it onto
-                                my CloudFlare domain.
-                            </p>
                         </div>
                     </div>
                     <div style={{ height: '120px' }}></div>

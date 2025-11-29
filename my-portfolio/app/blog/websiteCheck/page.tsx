@@ -24,7 +24,7 @@ export default function HelloThere() {
                     <div className={`flex flex-col justify-start items-start gap-[30px] w-[40%]`}>
                         <div className={`flex flex-row justify-between w-full`}>
                             <h1 className={`font-semibold text-[38px] leading-[44px] text-(--tcl1)`}>
-                                Aeris
+                                websiteCheck.py
                             </h1>
                             <p className={`underline font-secondary text-(--tcl3) pt-[10px] pr-[15px]`}>
                                 11/29/2025
@@ -34,27 +34,32 @@ export default function HelloThere() {
                             <p className={`mb-[50px] font-normal text-[14px] leading-[20px] text-(--tcl2)`}>
                                 ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
                             </p>
-                            <h2 className={`text-[25px] font-semibold pb-[20px]`}>
-                                Since I finished this project about a month before I started building this new website, I unfortunately won't
-                                be able to give live insight on how I completed it.
+                            <h2 className={`text-[30px] font-semibold pb-[20px]`}>
+                                (FINISHED THIS PROJECT IN AUGUST)
                             </h2>
                             <p>
                                 Github repo <a className={`text-(--tcl2) underline`} 
-                                href="https://github.com/raaz4n/Aeris" target="_blank" rel="noopener noreferrer">here.</a>
+                                href="https://github.com/raaz4n/websiteCheck" target="_blank" rel="noopener noreferrer">here.</a>
                             </p>
                             <p className={`pt-[20px]`}>
-                                Use the tool <a className={`text-(--tcl2) underline`} 
-                                href="https://aeris.raazan.dev/" target="_blank" rel="noopener noreferrer">here.</a>
+                                I originally had the idea to create this Python script as I was searching for jobs back in August 2025.
+                                I was struggling pretty badly and wanted to find something new, and found a careers page that had 0 listings. My initial
+                                thought was to register for email notifications on the company's website, but found no such option.
                             </p>
                             <p className={`pt-[20px]`}>
-                                I had the thought one day of making a tool using Python that gathers data from an API and thought of using OpenWeatherMap.
-                                I thought of making a very simplistic weather app, since many weather apps online tend to bombard you with options. Although
-                                this app doesn't have many options besides temperature and location, it's what I intended for it.
+                                That's when I came up with the idea of using a website's hash and comparing it to a previous hash on certain intervals.
+                                I used AWS for my own use, along with several Python libraries such as BeautifulSoup and EmailMessage.
+                                I could have used hardware such as a Raspberry Pi, but chose not to in order to gain more experience using AWS.
                             </p>
                             <p className={`pt-[20px]`}>
-                                I never used Flask before this project, so it was quite a journey. I looked at many Flask examples online to get a feel of
-                                how I would build Aeris. It was a great learning process utilizing Flask and setting up the server through AWS EC2 and getting it onto
-                                my CloudFlare domain.
+                                It's tied in with both AWS Lambda and S3, with Lambda running my script every hour and storing the hash in an S3 bucket.
+                                Once the hash has been stored, the script will compare the new hash with the hash stored in S3. If the hash has changed,
+                                the user will be sent an email and S3 will overwrite the old hash. Otherwise, nothing will happen and AWS will run the script
+                                once again based on the user's chosen interval.
+                            </p>
+                            <p className={`pt-[20px]`}>
+                                Currently, I use this script for several careers websites for myself and my father, as he has also been struggling to find a position
+                                in this job market.
                             </p>
                         </div>
                     </div>

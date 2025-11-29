@@ -5,7 +5,7 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 export default function HelloThere() {
     return (
         <>
-            <section className={`flex flex-col pt-[200px] min-h-screen bg-(--background)`}>
+            <section className={`flex flex-col pt-[200px] bg-(--background)`}>
                 <ThemeButton />
                 <Link href="/blog" style={{ left: '20px' }} className={`flex flex-row gap-[20px] fixed text-(--tcl2) items-center cursor-pointer`}>
                     <AiOutlineArrowLeft size={40} />
@@ -13,7 +13,7 @@ export default function HelloThere() {
                         back to blogs
                     </p>
                 </Link>
-                <div className="flex flex-col justify-start items-center min-h-screen">
+                <div className="flex flex-col justify-start items-center">
                     <div className={`flex flex-col justify-start items-start gap-[30px] w-[40%]`}>
                         <div className={`flex flex-row justify-between w-full`}>
                             <h1 className={`font-semibold text-[38px] leading-[44px] text-(--tcl1)`}>
@@ -43,7 +43,6 @@ export default function HelloThere() {
                             <p className={`pt-[20px]`}>
                                 You can also connect with me via <a className={`text-(--lc)`} href="https://linkedin.com/in/raazan" target="_blank" rel="noopener noreferrer">linkedin</a> as well.
                             </p>
-
                             <p className={`pt-[60px]`}>
                                 Anyways,
                             </p>
@@ -58,6 +57,7 @@ export default function HelloThere() {
                             </p>
                         </div>
                     </div>
+                    <div style={{ height: '120px' }}></div>
                 </div>
             </section>
         </>
