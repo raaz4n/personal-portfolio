@@ -33,7 +33,7 @@ export default function Blog() {
                         Blog
                     </h1>
                     <p className={`mb-[10px] font-normal text-[18px] leading-[20px] text-(--tcl1)`}>
-                        Posts of mine, what I'm up to.
+                        Posts of mine. What I'm up to.
                     </p>
                     <p className={`mb-[10px] font-normal text-[14px] leading-[20px] text-(--tcl2)`}>
                         ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
@@ -53,7 +53,7 @@ export default function Blog() {
                                     {el.date}
                                 </p>
                             </div>
-                            <p>
+                            <p className={`text-(--tcl2)`}>
                                 {el.desc}
                             </p>
                             <div className={`flex flex-row flex-wrap mt-[20px] gap-[10px]`}>

@@ -6,7 +6,7 @@ function Filter({activeTag, handleTag, tagList}) {
         {tagList.map((tag, i) => (
             <div onClick={() => handleTag(tag)} 
              className={`py-1 px-4 cursor-pointer rounded-lg hover:bg-(--ic) hover:text-(--tcl1)
-             ${activeTag == tag ? 'bg-(--nxt-bg) text-(--nxt-clr)' : 'bg-(--tcl3)'}`}
+             ${activeTag == tag ? 'bg-(--nxt-bg) text-(--nxt-clr) border border-red-500' : 'bg-(--tcl3)'}`}
              key={i}>
                 {tag}
             </div>
