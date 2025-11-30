@@ -24,10 +24,10 @@ export default function projects(){
                             <img src="/hoshi/hoshilogo.png" alt="Hoshi" className="rounded-t-lg w-[300px] h-[300px]"/>
                         </div>
                         <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
-                            <p className={`text-white font-semibold text-[25px]`}>
+                            <p className={`text-white font-semibold text-[20px]`}>
                                 Hoshi
                             </p>
-                            <p className={`text-yellow-500 font-secondary text-[19px]`}>
+                            <p className={`text-yellow-500 font-secondary text-[16px]`}>
                                 2025 - present
                             </p>
                         </div>
@@ -39,10 +39,10 @@ export default function projects(){
                             <img src="/files/Fayzit.png" alt="Fayzit" className="rounded-t-lg w-[300px] h-[300px]"/>
                         </div>
                         <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
-                            <p className={`text-white font-semibold  text-[25px]`}>
+                            <p className={`text-white font-semibold  text-[20px]`}>
                                 Fayzit
                             </p>
-                            <p className={`text-yellow-500 font-secondary text-[19px]`}>
+                            <p className={`text-yellow-500 font-secondary text-[16px]`}>
                                 2025 - present
                             </p>
                         </div>
@@ -54,10 +54,10 @@ export default function projects(){
                             <img src="/files/the-way-of-silence.jpg" alt="Portfolio website" className="rounded-t-lg w-[300px] h-[300px]"/>
                         </div>
                         <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
-                            <p className={`text-white font-semibold  text-[25px]`}>
+                            <p className={`text-white font-semibold  text-[20px]`}>
                                 Portfolio website
                             </p>
-                            <p className={`text-yellow-500 font-secondary text-[19px]`}>
+                            <p className={`text-yellow-500 font-secondary text-[16px]`}>
                                 2025 - present
                             </p>
                         </div>
@@ -69,10 +69,10 @@ export default function projects(){
                             <img src="/files/Aeris.png" alt="Aeris" className="rounded-t-lg w-[300px] h-[300px]"/>
                         </div>
                         <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
-                            <p className={`text-white font-semibold  text-[25px]`}>
+                            <p className={`text-white font-semibold  text-[16px]`}>
                                 Aeris
                             </p>
-                            <p className={`text-yellow-500 font-secondary text-[19px]`}>
+                            <p className={`text-yellow-500 font-secondary text-[16px]`}>
                                 2025 (completed)
                             </p>
                         </div>
@@ -84,10 +84,10 @@ export default function projects(){
                             <img src="/files/websiteCheck.png" alt="websiteCheck.py" className="rounded-t-lg w-[300px] h-[300px]"/>
                         </div>
                         <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
-                            <p className={`text-white font-semibold text-[25px]`}>
+                            <p className={`text-white font-semibold text-[16px]`}>
                                 websiteCheck.py
                             </p>
-                            <p className={`text-yellow-500 font-secondary text-[19px]`}>
+                            <p className={`text-yellow-500 font-secondary text-[16px]`}>
                                 2025 (completed)
                             </p>
                         </div>
