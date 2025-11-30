@@ -21,7 +21,7 @@ export default function projects(){
                 <div className={`border border-orange-400 bg-[#333] rounded-lg shadow-xl min-h-[200px]`}>
                     <Link href="../blog/Hoshi">
                         <div className={`flex flex-col`}>
-                            <img src="/hoshi/hoshilogo.png" alt="Hoshi" className="rounded-t-lg w-[300px] h-[300px]"/>
+                            <img src="/hoshi/hoshilogo.png" alt="Hoshi" className="rounded-t-lg h-[50%]"/>
                         </div>
                         <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
                             <p className={`text-white font-semibold text-[20px]`}>
@@ -36,7 +36,7 @@ export default function projects(){
                 <div className={`border border-orange-400 bg-[#333] rounded-lg shadow-xl min-h-[200px]`}>
                     <Link href="../blog/Fayzit">
                         <div className={`flex flex-col`}>
-                            <img src="/files/Fayzit.png" alt="Fayzit" className="rounded-t-lg w-[300px] h-[300px]"/>
+                            <img src="/files/Fayzit.png" alt="Fayzit" className="rounded-t-lg h-[50%]"/>
                         </div>
                         <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
                             <p className={`text-white font-semibold  text-[20px]`}>
@@ -51,7 +51,7 @@ export default function projects(){
                 <div className={`border border-orange-400 bg-[#333] rounded-lg shadow-xl min-h-[200px]`}>
                     <Link href="../blog/portfolio">
                         <div className={`flex flex-col`}>
-                            <img src="/files/the-way-of-silence.jpg" alt="Portfolio website" className="rounded-t-lg w-[300px] h-[300px]"/>
+                            <img src="/files/the-way-of-silence_.jpg" alt="Portfolio website" className="rounded-t-lg h-[50%]"/>
                         </div>
                         <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
                             <p className={`text-white font-semibold  text-[20px]`}>
@@ -66,10 +66,10 @@ export default function projects(){
                 <div className={`border border-orange-400 bg-[#333] rounded-lg shadow-xl min-h-[200px]`}>
                     <Link href="../blog/Aeris">
                         <div className={`flex flex-col`}>
-                            <img src="/files/Aeris.png" alt="Aeris" className="rounded-t-lg w-[300px] h-[300px]"/>
+                            <img src="/files/Aeris.png" alt="Aeris" className="rounded-t-lg h-[50%]"/>
                         </div>
                         <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
-                            <p className={`text-white font-semibold  text-[16px]`}>
+                            <p className={`text-white font-semibold  text-[20px]`}>
                                 Aeris
                             </p>
                             <p className={`text-yellow-500 font-secondary text-[16px]`}>
@@ -81,10 +81,10 @@ export default function projects(){
                 <div className={`border border-orange-400 bg-[#333] rounded-lg shadow-xl min-h-[200px]`}>
                     <Link href="../blog/websiteCheck">
                         <div className={`flex flex-col`}>
-                            <img src="/files/websiteCheck.png" alt="websiteCheck.py" className="rounded-t-lg w-[300px] h-[300px]"/>
+                            <img src="/files/websiteCheck.png" alt="websiteCheck.py" className="rounded-t-lg h-[50%]"/>
                         </div>
                         <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
-                            <p className={`text-white font-semibold text-[16px]`}>
+                            <p className={`text-white font-semibold text-[20px]`}>
                                 websiteCheck.py
                             </p>
                             <p className={`text-yellow-500 font-secondary text-[16px]`}>
