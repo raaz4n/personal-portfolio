@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" style={{ overflowY: 'scroll' }} suppressHydrationWarning>
         <body className={`${figtreeFont.variable} ${stackFont.variable} ${interFont.variable}`} >
             <script>
                 const theme = localStorage.getItem("theme") || "dark";
