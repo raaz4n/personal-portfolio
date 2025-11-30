@@ -85,7 +85,7 @@ export default function art() {
                     </a>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '5px' }} className={`ml-[20px] bg-[#333] rounded-lg bg-(--background)`}>
-                    <p style={{ lineHeight: '1' }} className={`text-white font-semibold font-tertiary text-[50px]`}>
+                    <p style={{ lineHeight: '1' }} className={`text-white font-semibold text-[50px]`}>
                         Hoshi
                     </p>
                     <p className={`text-white text-[25px]`}>
