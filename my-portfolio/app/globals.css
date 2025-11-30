@@ -10,11 +10,11 @@
     --rc: #eff7ad;
     --nxt-clr: black;
     --nxt-bg: white;
-    --ht: #ff7070;
-    --abtt: #011fff;
-    --at: #e6ff00;
-    --bt: #57d8ff;
-    --pt: #00ff73;
+    --ht: #E4ACB2;
+    --abtt: #EABCA8;
+    --at: #FAEDCD;
+    --bt: #CCD5AE;
+    --pt: #99BAB9;
 }
 
 .disabled {
@@ -51,11 +51,11 @@
     --lc: #aff2ff;
     --rc: #eff7ad;
     --nxt-clr: black;
-    --ht: #ff7070;
-    --abtt: #011fff;
-    --at: #e6ff00;
-    --bt: #57d8ff;
-    --pt: #00ff73;
+    --ht: #E4ACB2;
+    --abtt: #EABCA8;
+    --at: #FAEDCD;
+    --bt: #CCD5AE;
+    --pt: #99BAB9;
 }
 
 [data-theme="light"] {

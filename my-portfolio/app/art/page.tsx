@@ -7,6 +7,7 @@ import PhotoSwipeDynamicCaption from 'photoswipe-dynamic-caption-plugin';
 import 'photoswipe/style.css';
 import 'photoswipe-dynamic-caption-plugin/photoswipe-dynamic-caption-plugin.css';
 import PhotoSwipe from 'photoswipe';
+import { IoMdPhotos } from "react-icons/io";
 
 export default function art() {
     useEffect(() => {
@@ -37,7 +38,7 @@ export default function art() {
   return (
     <div className={`flex flex-col justify-center items-center min-h-screen bg-(--background)`}>
       <ThemeButton/>
-      <div className={`flex flex-col justify-start items-start gap-[34px] pt-[200px] min-h-screen w-[70%] static`}>
+      <div className={`flex flex-col justify-start items-start gap-[34px] pt-[200px] min-h-screen w-[40%] static`}>
         <div className={`flex flex-col justify-start items-start gap-[30px] mb-[20px] w-[100%] h-[15%]`}>
             <h1 className={`mb-[10px] font-semibold text-[38px] leading-[44px] text-(--tcl1)`}>
                 Art
@@ -49,13 +50,20 @@ export default function art() {
                 ◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈◈
             </p>
         </div>
-        <div className={`grid grid-cols-3 gap-y-8 gap-x-15 w-full pl-[10px] pr-[10px]`}>
-            <div className={`border border-orange-400 bg-[#333] rounded-lg shadow-xl min-h-[480px]`}>
+        <div className={`flex flex-col justify-center items-center gap-[100px] w-full`}>
+            <div className={`flex flex-row relative border border-orange-400 h-fit bg-[#333] w-full rounded-lg shadow-xl cursor-pointer`}>
                 <div id = "gallery">
+                    <div className={`text-(--tcl2) fixed justify-center items-center translate-y-18 translate-x-240`}>
+                        <IoMdPhotos size={50}/>
+                        <p className={`translate-x-5`}>
+                            3
+                        </p>
+                    </div>  
+                    <img src="/hoshi/hoshilogo.png" className="rounded-l-lg h-[200px]"/>
                     <a href="/hoshi/hoshilogo.png"
                     data-pswp-width="650"
-                    data-pswp-height="650">
-                        <img src="/hoshi/hoshilogo.png" className="rounded-t-lg w-[400px] h-[400px]"/>
+                    data-pswp-height="650"
+                    className="absolute inset-0 opacity-0">
                         <span className="pswp-caption-content">The logo for my 2D space-adventure game known as Hoshi.
                                                                This logo represents the main character - Hoshi, as well as all of the worlds that she explores.
                                                                It is also known as the Kanji 星, which translates to "star".
@@ -76,17 +84,25 @@ export default function art() {
                         </span>
                     </a>
                 </div>
-                <div className={`flex flex-col justify-center bg-[#333] items-center w-full h-[85px] rounded-b-lg bg-(--background)`}>
-                    <p className={`text-white font-tertiary text-[25px]`}>
+                <div className={`ml-[20px] bg-[#333] rounded-lg bg-(--background)`}>
+                    <p className={`text-white font-semibold font-tertiary text-[50px]`}>
                         Hoshi
                     </p>
-                    <p className={`text-yellow-500 font-secondary text-[19px]`}>
+                    <p className={`text-white text-[25px]`}>
+                        My first several pixel art experiments for my 2D game.
+                    </p>
+                    <p className={`text-yellow-500 font-secondary text-[20px]`}>
                         2025-present
                     </p>
+                    <div className={`bg-blue-500 rounded-lg mt-[8px] p-1 w-fit`}>
+                        <p className={`font-secondary text-white text-[20px]`}>
+                            pixel art
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div className={`border border-orange-400 bg-(--background) rounded-lg shadow-xl min-h-[480px]`}>
-                <div className={`flex flex-col justify-center items-center h-[29em]`}>
+            <div className={`flex flex-row border justify-center items-center border-orange-400 bg-(--background) w-full rounded-lg shadow-xl`}>
+                <div className={`flex flex-col justify-center items-center`}>
                     <h1 className={`font-secondary text-(--tcl2) text-[40px]`}>
                         More to come soon!
                     </h1>
