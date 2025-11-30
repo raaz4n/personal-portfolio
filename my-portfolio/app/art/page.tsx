@@ -53,7 +53,7 @@ export default function art() {
         <div className={`flex flex-col justify-center items-center gap-[100px] w-full`}>
             <div className={`flex flex-row relative border border-orange-400 h-fit bg-[#333] w-full rounded-lg shadow-xl cursor-pointer`}>
                 <div id = "gallery">
-                    <div className={`text-(--tcl2) fixed justify-center items-center translate-y-18 translate-x-240`}>
+                    <div className={`text-(--tcl2) left-[67%] fixed justify-center items-center translate-y-18 `}>
                         <IoMdPhotos size={50}/>
                         <p className={`translate-x-5`}>
                             3
@@ -88,10 +88,10 @@ export default function art() {
                     <p style={{ lineHeight: '1' }} className={`text-white font-semibold text-[50px]`}>
                         Hoshi
                     </p>
-                    <p className={`text-white text-[25px]`}>
+                    <p className={`text-white text-[18px]`}>
                         My first several pixel art experiments for my 2D game.
                     </p>
-                    <p className={`text-yellow-500 font-secondary text-[20px]`}>
+                    <p className={`text-yellow-500 font-secondary text-[18px]`}>
                         2025-present
                     </p>
                     <div className={`bg-blue-500 rounded-lg mt-[8px] p-1 w-fit`}>
