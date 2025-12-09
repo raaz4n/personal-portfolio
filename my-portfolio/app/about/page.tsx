@@ -26,7 +26,7 @@ export default function about() {
                 <p className={`block font-secondary font-normal text-[14px] leading-[20px] text-(--tcl2) mb-[10px]`}>
                     interested in my skills?
                     <br />
-                    <a className={`inline text-(--rc)`} href="/files/portfolio.pdf" target="_blank" rel="noopener noreferrer">
+                    <a className={`inline text-(--rc)`} href="/files/portfolio-2.pdf" target="_blank" rel="noopener noreferrer">
                         my resume ░
                     </a>    
                 </p>
