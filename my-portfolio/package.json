@@ -11,7 +11,7 @@
   "dependencies": {
     "@opennextjs/cloudflare": "^1.14.0",
     "geist": "^1.5.1",
-    "next": "16.0.4",
+    "next": "^16.0.7",
     "photoswipe": "^5.4.4",
     "photoswipe-dynamic-caption-plugin": "^1.2.7",
     "postcss": "^8.5.6",
